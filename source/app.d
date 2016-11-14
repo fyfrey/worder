@@ -13,7 +13,7 @@ int main(string[] args)
 	if (!checkArgs(args))
 	{
 		writeln("Usage: ", args[0], " <alphabet> <number of characters (equal or less to alphabet size)>");
-		return 1;
+		return 0;
 	}
 	Mallocator malloc;
 	theAllocator = allocatorObject(malloc);
