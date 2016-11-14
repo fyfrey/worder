@@ -62,7 +62,7 @@ int main(string[] args)
 	return 0;
 }
 
-private void solveWord(R, O)(ref R words, const(char)[] letters, ref O outputRange) @nogc nothrow
+private void solveWord(R, O)(ref R words, const(char)[] letters, ref O outputRange) @nogc
 {
 	ubyte[256] masterTable;
 	foreach(ubyte b; letters) masterTable[b]++;
