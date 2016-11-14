@@ -1,0 +1,12 @@
+{
+	"name": "worder",
+	"authors": [
+		"fynnos"
+	],
+	"description": "finds words from given characters",
+	"copyright": "Copyright © 2016, fynnos",
+	"license": "proprietary",
+	"dependencies": {
+		"emsi_containers": "~>0.5.2"
+}
+}
